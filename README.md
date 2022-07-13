@@ -29,11 +29,17 @@
 - 如果Tnor 很小，即使是一个小的波动，也会得到一个大的 ρ 值，而一个大的 ρ 值会产生一个小的 δ 值。由上分析可知， 如果 δ 值小，那么估测带宽将更接近即时带宽，即估测带宽对小波动很敏感。所以，当 Tnor 很小时，会得到一个小的平滑边界。同理，当 Tnor 比较大时，即使是一个大的波动，通过控制函数，也会产生一个平滑的估测带宽 。此种情况下，得到一个较大的平滑边界。控制函数中，参数 m 控制 δ 的变化速度，即平滑估测( δ 值较大)和快速跟随估测( δ 值较小)之间的转换速度。
 
 ## 模拟场景
+
 - 模拟网络波动较为频繁且无规则的下载资源场景与结果：
+
 ![image](https://github.com/xuuhan/BandWidthTool/blob/main/BandWidthDemo/p3.png)
+
 - 模拟网络波动较小的下载资源场景与结果：
+
 ![image](https://github.com/xuuhan/BandWidthTool/blob/main/BandWidthDemo/p4.png)
+
 - 模拟网络完全平稳的下载资源场景与结果：
+
 ![image](https://github.com/xuuhan/BandWidthTool/blob/main/BandWidthDemo/p5.png)
 
 ## 总结
